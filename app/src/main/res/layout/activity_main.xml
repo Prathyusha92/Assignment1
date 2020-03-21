@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:textColor="#726A6A"
+    android:background="#03A9F4"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="YOU HAVE"
+        android:textSize="30dp"
+        android:layout_marginLeft="110dp"
+        android:textStyle="bold"
+        android:id="@+id/t1"
+        android:layout_marginTop="150dp"/>
+
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="125dp"
+        android:layout_marginTop="50dp"
+        android:text=""
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/t3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="115dp"
+        android:layout_marginTop="50dp"
+        android:text=""
+        android:textStyle="bold"
+        android:textColor="#4A8B27"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/b1"
+            android:layout_marginTop="70dp"
+            android:layout_marginLeft="120dp"
+            android:text="Make it rain"
+            android:onClick="make"
+        tools:ignore="OnClick" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/b2"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="127dp"
+        android:text="Show Tag"
+        android:onClick="sow"
+        tools:ignore="OnClick" />
+
+</LinearLayout>
