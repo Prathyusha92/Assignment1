@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
 
             NumberFormat indiacurrency = NumberFormat.getCurrencyInstance(loc);
             String result = indiacurrency.format(count);
-            //System.out.print(result);
+            System.out.print(result);
             T.setText(result);
             if(count>=10000)
             {
